@@ -1,0 +1,46 @@
+@import "colores" ; 
+
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color:$boton-facebookB-color;
+    color: $navs-texto-color;
+}
+.btn-twitter {
+    background-color: $boton-twitterB-color;
+    color: $navs-texto-color;
+}
+
+._btn {color:$navs-texto-color; font-family: Montserrat; font-style: italic; text-decoration: none!important; }
+.header_logo {text-align: center; font-size: 90px; font-weight: 900; text-decoration: none!important;}
+.Body_background {background-image: url("../img/05.jpg");}
+.Footer_btn_size { font-weight: 900; font-size: 30px; text-align: center;}
+.Nav_Contacto {font-weight:700; font-size: 20px;}
+.Footer_align { text-align: center;}
+.Navs_transform:hover {transition: all 1s; color:$navs-transform-color; font-size: 30px;}
+.Navs_logo_transform:hover {transition: all 1s; color: $navs-transform-color;}
+
+@media (max-width: 576px) {.espaciador { height:15vh ;}}
+
+@media (min-width: 992px) {.espaciador { height: 70vh;}}
