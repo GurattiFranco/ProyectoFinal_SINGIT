@@ -56,12 +56,15 @@
 
 .Navs_transform:hover {
   transition: all 1s;
-  color: #FFD700;
-  font-size: 30px; }
+  color: #FFD700; }
 
 .Navs_logo_transform:hover {
   transition: all 1s;
   color: #FFD700; }
+
+.Navs_background_color {
+  background: black;
+  opacity: 0.5; }
 
 @media (max-width: 576px) {
   .espaciador {

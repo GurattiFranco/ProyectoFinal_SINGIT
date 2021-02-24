@@ -1,4 +1,5 @@
 @import "colores" ; 
+ 
 
 
 .divider-text {
@@ -38,9 +39,12 @@
 .Footer_btn_size { font-weight: 900; font-size: 30px; text-align: center;}
 .Nav_Contacto {font-weight:700; font-size: 20px;}
 .Footer_align { text-align: center;}
-.Navs_transform:hover {transition: all 1s; color:$navs-transform-color; font-size: 30px;}
+.Navs_transform:hover {transition: all 1s; color:$navs-transform-color;}
 .Navs_logo_transform:hover {transition: all 1s; color: $navs-transform-color;}
+.Navs_background_color { background: black; opacity: 0.5;}
 
 @media (max-width: 576px) {.espaciador { height:15vh ;}}
 
 @media (min-width: 992px) {.espaciador { height: 70vh;}}
+
+
