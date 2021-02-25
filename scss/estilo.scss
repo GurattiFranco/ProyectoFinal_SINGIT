@@ -14,6 +14,9 @@
     color: $navs-texto-color;
 }
 .sections_margin {margin-top: 80px; margin-bottom: 80px;}
+.Text_Titulo_styling {font-family: Montserrat; font-style: italic; font-weight: 600; font-size: 45px;}
+.Text_main_styling { font-family: Montserrat; font-weight: normal; font-size: 25px;}
+.Text_sub_styling { font-family: Montserrat; font-weight:900px; font-size: 15px;}
 .sections_margin2 {margin-top: 80px; margin-bottom: 87px;}
 .footer_section_styling {background-color:$navs-transform-color;}
 ._btn {color:$navs-texto-color; font-family: Montserrat; font-style: italic; text-decoration: none!important; }
@@ -52,7 +55,7 @@
 
 .flexfooter_color { background-color:rgba($color: #000000, $alpha: 0.89); width: 100%; max-width: 100%;}
 
-.prueba1 {
+.container_position {
     display: flex;
   justify-content: center;
 }
