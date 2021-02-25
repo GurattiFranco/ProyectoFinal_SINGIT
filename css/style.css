@@ -27,8 +27,18 @@
   background-color: #42AEEC;
   color: white; }
 
+.sections_margin {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
 ._btn {
   color: white;
+  font-family: Montserrat;
+  font-style: italic;
+  text-decoration: none !important; }
+
+._btn2 {
+  color: #FFD700;
   font-family: Montserrat;
   font-style: italic;
   text-decoration: none !important; }
@@ -40,7 +50,7 @@
   text-decoration: none !important; }
 
 .Body_background {
-  background-image: url("../img/05.jpg"); }
+  background-image: url("../img/maybe_backgroundfinal.jpeg"); }
 
 .Footer_btn_size {
   font-weight: 900;
@@ -62,9 +72,23 @@
   transition: all 1s;
   color: #FFD700; }
 
-.Navs_background_color {
-  background: black;
-  opacity: 0.5; }
+.img_position {
+  display: flex;
+  justify-content: center; }
+
+.img_sizing {
+  max-width: 65%;
+  height: auto; }
+
+.img_radius {
+  border-radius: 50% !important; }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
 
 @media (max-width: 576px) {
   .espaciador {

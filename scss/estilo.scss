@@ -32,16 +32,36 @@
     background-color: $boton-twitterB-color;
     color: $navs-texto-color;
 }
-
+.sections_margin {margin-top: 80px; margin-bottom: 80px;}
 ._btn {color:$navs-texto-color; font-family: Montserrat; font-style: italic; text-decoration: none!important; }
+._btn2 {color:$navs-transform-color; font-family: Montserrat; font-style: italic; text-decoration: none!important; }
 .header_logo {text-align: center; font-size: 90px; font-weight: 900; text-decoration: none!important;}
-.Body_background {background-image: url("../img/05.jpg");}
+.Body_background {background-image: url("../img/maybe_backgroundfinal.jpeg");}
 .Footer_btn_size { font-weight: 900; font-size: 30px; text-align: center;}
 .Nav_Contacto {font-weight:700; font-size: 20px;}
 .Footer_align { text-align: center;}
 .Navs_transform:hover {transition: all 1s; color:$navs-transform-color;}
 .Navs_logo_transform:hover {transition: all 1s; color: $navs-transform-color;}
-.Navs_background_color { background: black; opacity: 0.5;}
+.img_position {
+    display: flex;
+    justify-content: center;
+}
+.img_sizing {
+        max-width: 65%;
+        height: auto;
+      }
+
+.img_radius {
+    border-radius: 50% !important;
+}
+.container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
 
 @media (max-width: 576px) {.espaciador { height:15vh ;}}
 
