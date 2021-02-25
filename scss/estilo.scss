@@ -1,5 +1,6 @@
 @import "colores" ; 
 @import "mediasQ" ;  
+@import "botonstyle";
 
 
 
@@ -13,10 +14,12 @@
     color: $navs-texto-color;
 }
 .sections_margin {margin-top: 80px; margin-bottom: 80px;}
+.sections_margin2 {margin-top: 80px; margin-bottom: 87px;}
+.footer_section_styling {background-color:$navs-transform-color;}
 ._btn {color:$navs-texto-color; font-family: Montserrat; font-style: italic; text-decoration: none!important; }
 ._btn2 {color:$navs-transform-color; font-family: Montserrat; font-style: italic; text-decoration: none!important; }
 .header_logo {text-align: center; font-size: 90px; font-weight: 900; text-decoration: none!important;}
-.Body_background {background-image: url("../img/maybe_backgroundfinal.jpeg");}
+.Body_background {background-image: url("../img/maybe_backgroundfinal.jpeg"); height: 35vh;}
 .Footer_btn_size { font-weight: 900; font-size: 30px; text-align: center;}
 .Nav_Contacto {font-weight:700; font-size: 20px;}
 .Footer_align { text-align: center;}
@@ -43,7 +46,18 @@
 
     }
 
+.container_padding {
+    padding: 60px;
+}
+
 .flexfooter_color { background-color:rgba($color: #000000, $alpha: 0.89); width: 100%; max-width: 100%;}
+
+.prueba1 {
+    display: flex;
+  justify-content: center;
+}
+
+
 
 
 
