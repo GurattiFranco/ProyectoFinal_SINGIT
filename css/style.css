@@ -1,23 +1,10 @@
-.divider-text {
-  position: relative;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px; }
+@media (max-width: 576px) {
+  .espaciador {
+    height: 15vh; } }
 
-.divider-text span {
-  padding: 7px;
-  font-size: 12px;
-  position: relative;
-  z-index: 2; }
-
-.divider-text:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  border-bottom: 1px solid #ddd;
-  top: 55%;
-  left: 0;
-  z-index: 1; }
+@media (min-width: 992px) {
+  .espaciador {
+    height: 70vh; } }
 
 .btn-facebook {
   background-color: #405D9D;
@@ -90,10 +77,7 @@
   margin-right: auto;
   margin-left: auto; }
 
-@media (max-width: 576px) {
-  .espaciador {
-    height: 15vh; } }
-
-@media (min-width: 992px) {
-  .espaciador {
-    height: 70vh; } }
+.flexfooter_color {
+  background-color: rgba(0, 0, 0, 0.89);
+  width: 100%;
+  max-width: 100%; }
