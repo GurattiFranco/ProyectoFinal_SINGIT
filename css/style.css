@@ -1,10 +1,18 @@
-@media (max-width: 576px) {
+@media screen and (max-width: 800px) {
   .espaciador {
     height: 15vh; } }
 
-@media (min-width: 992px) {
-  .espaciador {
-    height: 70vh; } }
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+  .footer_heigth {
+    height: 23vh; } }
+
+@media screen and (min-width: 1024px) {
+  .footer_heigth {
+    height: 8.5vh; } }
+
+@media screen and (max-width: 374px) {
+  .footer_heigth {
+    height: 21.5vh; } }
 
 ul.social-network {
   list-style: none;
@@ -173,9 +181,6 @@ a.socialIcon:hover, .socialHoverClass {
   margin-right: auto;
   margin-left: auto; }
 
-.container_padding {
-  padding: 60px; }
-
 .flexfooter_color {
   background-color: rgba(0, 0, 0, 0.89);
   width: 100%;
@@ -183,4 +188,5 @@ a.socialIcon:hover, .socialHoverClass {
 
 .container_position {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 80px; }

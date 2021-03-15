@@ -1,3 +1,25 @@
-@media (max-width: 576px) {.espaciador { height:15vh ;}}
+@media screen and (max-width:800px){
+    .espaciador {
+        height: 15vh;
+    }
+}
 
-@media (min-width: 992px) {.espaciador { height: 70vh;}}
+@media screen and (min-width:375px) and (max-width:1023px) {
+    .footer_heigth { 
+        height: 23vh;
+
+    }  
+}
+
+@media screen and (min-width:1024px) {
+    .footer_heigth {
+        height: 8.5vh;
+    }
+}
+
+
+@media screen and (max-width:374px) {
+    .footer_heigth { 
+        height: 21.5vh;
+    }
+}
