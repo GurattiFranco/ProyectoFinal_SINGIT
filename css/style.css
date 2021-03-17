@@ -8,11 +8,25 @@
 
 @media screen and (min-width: 1024px) {
   .footer_heigth {
-    height: 8.5vh; } }
+    height: 9.9vh; } }
 
 @media screen and (max-width: 374px) {
   .footer_heigth {
-    height: 21.5vh; } }
+    height: 24.9vh; } }
+
+@media screen and (max-width: 375px) {
+  .rezise_footer_text {
+    font-size: 25px !important; } }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .footer_heigth {
+    height: 25vh; } }
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .logo_resize {
+    font-size: 80px !important; }
+  .font_sub_rezise {
+    font-size: 13px !important; } }
 
 ul.social-network {
   list-style: none;
@@ -94,9 +108,22 @@ a.socialIcon:hover, .socialHoverClass {
   background-color: #42AEEC;
   color: white; }
 
-.sections_margin {
-  margin-top: 80px;
-  margin-bottom: 80px; }
+._btn {
+  color: white;
+  font-family: Montserrat;
+  font-style: italic;
+  text-decoration: none !important; }
+
+._btn2 {
+  color: #FFD700;
+  font-family: Montserrat;
+  font-style: italic;
+  text-decoration: none !important; }
+
+.Footer_btn_size {
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center; }
 
 .Text_Titulo_styling {
   font-family: Montserrat;
@@ -118,20 +145,20 @@ a.socialIcon:hover, .socialHoverClass {
   margin-top: 80px;
   margin-bottom: 87px; }
 
+.sections_margin {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
 .footer_section_styling {
   background-color: #FFD700; }
 
-._btn {
-  color: white;
-  font-family: Montserrat;
-  font-style: italic;
-  text-decoration: none !important; }
+.flexfooter_color {
+  background-color: rgba(0, 0, 0, 0.89);
+  width: 100%;
+  max-width: 100%; }
 
-._btn2 {
-  color: #FFD700;
-  font-family: Montserrat;
-  font-style: italic;
-  text-decoration: none !important; }
+.Footer_align {
+  text-align: center; }
 
 .header_logo {
   text-align: center;
@@ -140,26 +167,19 @@ a.socialIcon:hover, .socialHoverClass {
   text-decoration: none !important; }
 
 .Body_background {
-  background-image: url("../img/maybe_backgroundfinal.jpeg");
+  background-image: url("../img/Navbar_background.jpg");
+  background-size: cover;
   height: 35vh; }
 
-.Footer_btn_size {
-  font-weight: 900;
-  font-size: 30px;
-  text-align: center; }
+.Navs_logo_transform:hover {
+  transition: all 1s;
+  color: #FFD700; }
 
 .Nav_Contacto {
   font-weight: 700;
   font-size: 20px; }
 
-.Footer_align {
-  text-align: center; }
-
 .Navs_transform:hover {
-  transition: all 1s;
-  color: #FFD700; }
-
-.Navs_logo_transform:hover {
   transition: all 1s;
   color: #FFD700; }
 
@@ -180,11 +200,6 @@ a.socialIcon:hover, .socialHoverClass {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
-
-.flexfooter_color {
-  background-color: rgba(0, 0, 0, 0.89);
-  width: 100%;
-  max-width: 100%; }
 
 .container_position {
   display: flex;
